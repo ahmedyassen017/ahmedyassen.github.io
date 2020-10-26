@@ -103,7 +103,24 @@ a{
 }
 /*end hero secion*/
 
+/*start of services section*/
+#services{
 
+}
+#services .services{
+    flex-direction:column ;
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+#services .section-title{
+    font-size: 4rem;
+    font-weight: 300;
+    color: white;
+    
+}
+/*end of services section*/
 
 
 

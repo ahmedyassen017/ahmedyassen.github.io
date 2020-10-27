@@ -117,9 +117,46 @@ a{
 #services .section-title{
     font-size: 4rem;
     font-weight: 300;
-    color: white;
-    
+    color: rgb(196, 40, 40);
+    margin-bottom: 10px;
+    letter-spacing: .2rem;
+    text-align: center;
 }
+#services .section-title span{
+    color: black;
+}
+#services .service-top p{
+    font-size: 1.4rem;
+    margin-top: 5px;
+    line-height:2.5rem ;
+    font-weight: 300;
+    letter-spacing: .05rem;
+    word-spacing: .5rem;
+}
+
+#services .service-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+#services .service-item{
+    flex-basis: 80%;
+    display: flex;
+    align-items:flex-start ;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px ;
+    border-radius: 10px;
+    background-image: url();
+}
+
+
+
+
+
 /*end of services section*/
 
 

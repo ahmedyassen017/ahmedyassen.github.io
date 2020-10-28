@@ -149,12 +149,33 @@ a{
     justify-content: center;
     flex-direction: column;
     padding: 30px ;
-    border-radius: 10px;
-    background-image: url();
+    border-radius: 25px;
+    background-image: url(./images/img-1.png);
+    background-size: cover;
+    position: relative;
+    margin: 1rem;
+    font-size: 2rem;
+    z-index: 1;
 }
 
 
 
+#services .service-item::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: wheat;
+    opacity: .6;
+    border-radius: 25px;
+    z-index: -1;
+}
+#services .service-item p {
+    text-align: left;
+    margin-top: 10px;
+}
 
 
 /*end of services section*/

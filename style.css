@@ -18,6 +18,17 @@ a{
     align-items: center;
     justify-content: center;
 }
+.section-title{
+    font-size: 4rem;
+    font-weight: 300;
+    color: rgb(196, 40, 40);
+    margin-bottom: 10px;
+    letter-spacing: .2rem;
+    text-align: center;
+}
+.section-title span{
+    color: black;
+}
 
 /*hero seciton*/
 #hero{
@@ -104,9 +115,6 @@ a{
 /*end hero secion*/
 
 /*start of services section*/
-#services{
-
-}
 #services .services{
     flex-direction:column ;
     text-align: center;
@@ -114,17 +122,7 @@ a{
     margin: 0 auto;
     padding: 100px 0;
 }
-#services .section-title{
-    font-size: 4rem;
-    font-weight: 300;
-    color: rgb(196, 40, 40);
-    margin-bottom: 10px;
-    letter-spacing: .2rem;
-    text-align: center;
-}
-#services .section-title span{
-    color: black;
-}
+
 #services .service-top p{
     font-size: 1.4rem;
     margin-top: 5px;
@@ -179,6 +177,53 @@ a{
 
 
 /*end of services section*/
+
+
+/*start of project section*/
+
+#projects .projects{
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+#projects .projects-header h1{
+    margin-bottom: 50px;
+
+}
+#projects .all-projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#projects .project-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 20px auto;
+    align-items: center;
+    border-radius: 30px;
+    
+}
+#projects .project-info{
+    padding: 30px;
+    flex-basis: 50%;
+    background-color: white;
+    height: 100%;
+    display: center;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+
+/*end of project section*/
 
 
 
